@@ -1,0 +1,6 @@
+<h1>USER REGISTRATION FORM</h1>
+<form method ='post' enctype="multipart/form-data">
+    {% csrf_token%}
+    {{form_registration.as_p}}
+    <button type="submit">Submit</button>
+</form>
